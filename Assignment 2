@@ -1,0 +1,38 @@
+# Online Python - IDE, Editor, Compiler, Interpreter
+n=int(input("Enter n:"))
+c=0
+l=[]
+t=[]
+for i in range(n):
+    x=int(input())
+    l.append(x)
+x=0
+for i in range(n):
+    if l[i]!=0:
+        t.append(l[i])
+        x+=1 
+        c+=1
+print("Count of non-zero numbres",c)
+print(t)
+
+output:
+
+Enter n:
+10
+25
+0
+67
+34
+0
+94
+35
+0
+0
+100
+Count of non-zero numbres 6
+[25, 67, 34, 94, 35, 100]
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
+Online Python Compiler
